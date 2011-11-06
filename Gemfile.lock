@@ -1,13 +1,4 @@
 GIT
-  remote: git://github.com/intridea/omniauth-contrib.git
-  revision: 48e914f905df146adf45eac635c2244625191d21
-  specs:
-    omniauth-contrib (1.0.0)
-      multi_json
-      omniauth (~> 1.0)
-      omniauth-oauth (~> 1.0)
-
-GIT
   remote: git://github.com/mbleigh/omniauth-linkedin.git
   revision: 673a8688da9c8e6c9c96a1edc88f3518debe4f5a
   branch: patch-1
@@ -85,6 +76,8 @@ GEM
     omniauth-openid (1.0.0)
       omniauth (~> 1.0)
       rack-openid (~> 1.3.1)
+    omniauth-twitter (0.0.6)
+      omniauth-oauth (~> 1.0)
     openid_mongodb_store (0.3.0)
       mongo (~> 1.3)
       ruby-openid (~> 2.1)
@@ -112,13 +105,13 @@ DEPENDENCIES
   mongo (= 1.3.1)
   mongoid (= 2.2.3)
   omniauth
-  omniauth-contrib!
   omniauth-facebook!
   omniauth-geoloqi
   omniauth-github
   omniauth-identity
   omniauth-linkedin!
   omniauth-openid
+  omniauth-twitter
   openid_mongodb_store
   ruby-openid!
   sinatra

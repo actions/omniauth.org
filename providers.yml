@@ -32,5 +32,5 @@ open_id:
   url: https://github.com/intridea/omniauth-openid
 twitter:
   name: Twitter
-  author: intridea
-  url: https://github.com/intridea/omniauth-contrib
+  author: arunagw
+  url: https://github.com/arunagw/omniauth-twitter
