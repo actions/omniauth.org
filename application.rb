@@ -20,6 +20,7 @@ end
 use Rack::Session::Cookie
 use OmniAuth::Builder do
   provider :facebook, ENV['FACEBOOK_KEY'], ENV['FACEBOOK_SECRET']
+  provider :foursquare, ENV['FOURSQUARE_KEY'], ENV['FOURSQUARE_SECRET']
   provider :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET']
   provider :identity
   provider :linkedin, ENV['LINKEDIN_KEY'], ENV['LINKEDIN_SECRET']
