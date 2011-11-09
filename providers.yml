@@ -6,8 +6,8 @@ facebook:
   name: Facebook
   author: mkdynamic
   url: https://github.com/mkdynamic/omniauth-facebook
-foursqaure:
-  name: Foursqaure
+foursquare:
+  name: Foursquare
   author: arunagw
   url: https://github.com/arunagw/omniauth-foursquare
 
