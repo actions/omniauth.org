@@ -31,6 +31,10 @@ linkedin:
   name: LinkedIn
   author: skorks
   url: https://github.com/skorks/omniauth-linkedin
+picplz:
+  name: PicPlz
+  author: arunagw
+  url: https://github.com/arunagw/omniauth-picplz
 open_id:
   name: OpenID
   author: intridea
